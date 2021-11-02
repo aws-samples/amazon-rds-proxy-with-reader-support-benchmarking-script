@@ -5,7 +5,7 @@ source rdsproxy.env
 pg_conn_rdsproxy="rdsproxy-reader-test-1a-read-only.endpoint.proxy-xxxxxx.us-east-1.rds.amazonaws.com"
 pg_conn_apg_direct="apg-labs-test-pglogical-clustera.cluster-ro-xxxxxx.us-east-1.rds.amazonaws.com"
 
-cluster_ident="apg-labs-test-pglogical-clustera"
+cluster_ident="rds-proxy-test-cluster-xxxxxx"
 
 threads=10
 
